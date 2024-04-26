@@ -1,0 +1,19 @@
+{
+    "project_name": "Your new project name",
+    "project_id": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "short_description": "Brief overview of data.",
+    "date_creation": "{% now 'utc', '%Y%m%d' %}",
+    "technology": "such as ['PacBio_HiFi','OxfordNanopore','10xGenomics', 'exome', 'WGS']",
+    "processed_by": "Person responsible for pre-processing (pipeline execution)",
+    "is_paired": ["single-end", "paired-end","N/A"],
+    "n_samples": "How many samples have been sequenced?",
+    "pipeline": "Pipeline name [Example: nf-core/rnaseq or custom]",
+    "organism": "What organism is this?",
+    "organism_reference": "version of genome used [grch38, grhc37, hg19]",
+    "origin": "internal or external (if external, indicate publication or collaborator)",
+    "notes": "extra information on the data",
+    "version": "XX",
+    "path_dataset": "",
+    "contact_person": "Name contact person",
+    "contact_email": "abc123@ku.dk"
+}
