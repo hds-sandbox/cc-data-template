@@ -2,7 +2,6 @@ project_id: {{ cookiecutter.project_id }}
 project_name: {{ cookiecutter.project_name }} 
 date: {{ cookiecutter.date_creation }} 
 technology: {{ cookiecutter.technology }} 
-date: {{ cookiecutter.date_creation }} 
 n_samples: {{ cookiecutter.n_samples }} 
 is_paired: {{ cookiecutter.is_paired }} 
 organism: {{ cookiecutter.organism }} 
