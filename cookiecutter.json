@@ -13,7 +13,7 @@
     "origin": "internal or external (if external, indicate publication or collaborator)",
     "notes": "extra information on the data",
     "version": "XX",
-    "path_dataset": "",
+    "path_dataset": "./",
     "contact_person": "Name contact person",
     "contact_email": "abc123@ku.dk"
 }
