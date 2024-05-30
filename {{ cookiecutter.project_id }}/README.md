@@ -14,7 +14,7 @@ Data preprocessed by {{ cookiecutter.processed_by }} using {{ cookiecutter.pipel
 
 Folder structure 
 -------
-
+```
 Project_name/
 ├── README.md
 ├── Data (symbolic link)
@@ -22,6 +22,7 @@ Project_name/
 │   └── processed/
 ├── metadata.yml
 └── pipeline.sh
+```
 
 Notes
 -------
